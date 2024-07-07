@@ -30,7 +30,11 @@ public class ValidationItemControllerV2 {
     private final ItemValidator itemValidator;
 
     @InitBinder
+<<<<<<< HEAD
     public void init(WebDataBinder dataBinder) {
+=======
+    public void Init(WebDataBinder dataBinder) {
+>>>>>>> 3e94e141906fe3ab881009358d398714e05ed6f2
         dataBinder.addValidators(itemValidator);
     }
 
